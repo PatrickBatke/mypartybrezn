@@ -1,0 +1,457 @@
+.koo-photogrid:after, .post-slider .slides:after, .testimonial-slider .slides:after, .tabbed-popular-posts-widget .tab-panel:after, .social-links:after, .widget.weather-widget .today-forecast:after, .widget.weather-widget .weekly-forecast:after, .widget.weather-widget .weekly-forecast li:after {
+	content: " ";
+	display: block;
+	clear: both;
+	visibility: hidden; }
+
+/*!
+
+Tokoo Frontend Style
+
+@author: Tokoo
+@version: 1.0
+
+-------------------------------
+
+Table of Contents
+===============================
+
+1. Tokoo Shortcode Styles
+		1.1 Leading Paragraph Style
+		1.2 Tokoo Dropcap Style
+		1.3 Tokoo Content Column Style
+		1.4 Tokoo Pullquote Style
+		1.5 Tokoo Button Style
+		1.6 Tokoo Alert Box Style
+		1.7 Tokoo Collapsible Box Style
+		1.8 Tokoo Accordion
+
+2. Tokoo Widget Styles
+
+*/
+/*=============================
+ * 1. Tokoo Shortcode Styles
+ *=============================*/
+/* 1.1 Leading Paragraph Style */
+
+p.leading {
+	font-size: 1.6em;
+	font-style: italic; }
+
+/* 1.2 Tokoo Dropcap Style */
+.koo-dropcap {
+	float: left;
+	font-size: 5em;
+	margin-right: 15px;
+	margin-bottom: 0;
+	clear: both;
+	color: #1f2326;
+	line-height: 1.1; }
+	.koo-dropcap.boxed {
+		background: #1f2326;
+		padding: 10px 15px;
+		/*border-radius: 3px;*/
+		color: white;
+		line-height: 1; }
+
+/* 1.3 Tokoo Content Column Style */
+.koo-columns {
+	margin: 0 -15px;
+	clear: both; }
+	.koo-columns .koo-one-half {
+		width: 50%; }
+	.koo-columns .koo-one-third {
+		width: 33.3333%; }
+	.koo-columns .koo-two-third {
+		width: 66.6667%; }
+	.koo-columns .koo-column {
+		float: left;
+		padding: 0 15px;
+		box-sizing: border-box; }
+		@media screen and (max-width: 768px) {
+			.koo-columns .koo-column {
+				width: 100%;
+				float: none; } }
+
+/* 1.4 Tokoo Pullquote Style */
+blockquote {
+	margin: 50px 0; }
+	blockquote p {
+		margin: 0 0 10px;
+		font-size: 1.8em;
+		font-family: "Playfair Display", georgia, serif;
+		font-style: italic;
+		line-height: 1.4; }
+	blockquote .quote-src {
+		margin-top: 20px;
+		line-height: normal;
+		position: relative; }
+		blockquote .quote-src.has-avatar {
+			padding-left: 76px; }
+		blockquote .quote-src .quote-avatar {
+			width: 64px;
+			height: 64px;
+			border-radius: 50%;
+			position: absolute;
+			left: 0;
+			top: 0; }
+		blockquote .quote-src cite {
+			display: block;
+			font-style: normal;
+			font-weight: 700; }
+		blockquote .quote-src .quote-bg {
+			font-style: italic;
+			font-size: 0.8em; }
+	blockquote.koo-pullquote {
+		width: 35%;
+		margin: 0; }
+		blockquote.koo-pullquote.alignleft {
+			margin-right: 30px;
+			padding-right: 30px;
+			border-right: 5px solid rgba(0, 0, 0, 0.1); }
+			@media screen and (max-width: 640px) {
+				blockquote.koo-pullquote.alignleft {
+					margin: 30px 0; } }
+		blockquote.koo-pullquote.alignright {
+			margin-left: 30px;
+			padding-left: 30px;
+			border-left: 5px solid rgba(0, 0, 0, 0.1); }
+			@media screen and (max-width: 640px) {
+				blockquote.koo-pullquote.alignright {
+					margin: 30px 0; } }
+		@media screen and (max-width: 640px) {
+			blockquote.koo-pullquote {
+				width: 100%;
+				float: none;
+				margin: 30px 0; } }
+	blockquote.boxed {
+		border: 5px solid rgba(0, 0, 0, 0.1);
+		padding: 20px;
+		text-align: center; }
+		blockquote.boxed .quote-src {
+			padding-left: 0; }
+			blockquote.boxed .quote-src .quote-avatar {
+				position: relative; }
+	blockquote.plain {
+		border: none;
+		padding: 0 !important; }
+		blockquote.plain p {
+			font-style: normal;
+			font-family: inherit;
+			color: #6BAE09; }
+
+/* 1.5 Tokoo Button Style */
+.button {
+	display: inline-block;
+	padding: 0.5em 1.2em;
+	font-size: 0.9em;
+	text-decoration: none;
+	vertical-align: middle;
+	border-radius: 3px;
+	margin: 5px;
+	transition: 0.3s ease; }
+
+	.button.regular{
+		background: #6BAE09;
+		border: none!important;
+		color: white;
+	}
+	.button.regular:hover {
+		background-color: #89de0c; }
+	.button.medium {
+		font-size: 1.1em; }
+	.button.large {
+		font-size: 1.5em; }
+	.button.info {
+		border: none!important;
+		color: white;
+		background-color: #2069AC; }
+		.button.info:hover {
+			background-color: #74b5dc; }
+	.button.warning {
+		border: none!important;
+		color: white;
+		background-color: #E5AE00; }
+		.button.warning:hover {
+			background-color: #ffc819; }
+	.button.error {
+		border: none!important;
+		color: white;
+		background-color: #E54E00; }
+		.button.error:hover {
+			background-color: #ff6719; }
+	.button .fa, .button [class*="icon"] {
+		vertical-align: middle;
+		margin-right: 5px;
+		line-height: 1; }
+
+/* 1.6 Tokoo Alert Box Style */
+.koo-alert {
+	padding: 20px;
+	position: relative;
+	margin-bottom: 30px;
+	background: #6BAE09;
+	color: white; }
+	.koo-alert p {
+		margin: 0; }
+	.koo-alert .koo-alert-close {
+		position: absolute;
+		right: 0;
+		top: 0;
+		background: rgba(0, 0, 0, 0.1);
+		border: none;
+		font-size: 0.8em;
+		cursor: pointer;
+		padding: 10px;
+		width: 26px;
+		height: 26px;
+		line-height: 0.5;
+		color: white;
+		border-bottom-left-radius: 3px; }
+	.koo-alert.info, .koo-alert.warning, .koo-alert.error {
+		color: white; }
+	.koo-alert.info {
+		background-color: #2069AC; }
+	.koo-alert.warning {
+		background-color: #E5AE00; }
+	.koo-alert.error {
+		background-color: #E54E00; }
+
+/* 1.7 Tokoo Collapsible Box Style */
+.koo-collapsible-box {
+	margin-bottom: 30px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	overflow: hidden; }
+	.koo-collapsible-box .koo-box-title {
+		margin: 0;
+		font-weight: 300;
+		padding: 10px 20px;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		cursor: pointer; }
+	.koo-collapsible-box .koo-box-title.info, .koo-collapsible-box .koo-box-title.warning, .koo-collapsible-box .koo-box-title.error {
+		color: white; }
+	.koo-collapsible-box .koo-box-title.info {
+		background-color: #2069AC; }
+	.koo-collapsible-box .koo-box-title.warning {
+		background-color: #E5AE00; }
+	.koo-collapsible-box .koo-box-title.error {
+		background-color: #E54E00; }
+
+	.koo-collapsible-box .koo-box-content {
+		padding: 10px 20px; }
+
+/* 1.8 Tokoo Highlight Style */
+.highlight {
+	display: inline-block;
+	padding: 0 10px;
+	margin-bottom: 5px;
+	border-radius: 3px;
+	color: white;
+	background-color: #6BAE09; }
+	.highlight.info {
+		background-color: #2069AC; }
+	.highlight.warning {
+		background-color: #E5AE00; }
+	.highlight.error {
+		background-color: #E54E00; }
+
+/* 1.9 Tokoo Code Snippet */
+.pln {
+	color: #000; }
+
+@media screen {
+	.str {
+		color: #080; }
+
+	.kwd {
+		color: #008; }
+
+	.com {
+		color: #800; }
+
+	.typ {
+		color: #606; }
+
+	.lit {
+		color: #066; }
+
+	.pun, .opn, .clo {
+		color: #660; }
+
+	.tag {
+		color: #008; }
+
+	.atn {
+		color: #606; }
+
+	.atv {
+		color: #080; }
+
+	.dec, .var {
+		color: #606; }
+
+	.fun {
+		color: red; }
+ }
+
+@media print, projection {
+	.str {
+		color: #060; }
+
+	.kwd {
+		color: #006;
+		font-weight: bold; }
+
+	.com {
+		color: #600;
+		font-style: italic; }
+
+	.typ {
+		color: #404;
+		font-weight: bold; }
+
+	.lit {
+		color: #044; }
+
+	.pun, .opn, .clo {
+		color: #440; }
+
+	.tag {
+		color: #006;
+		font-weight: bold; }
+
+	.atn {
+		color: #404; }
+
+	.atv {
+		color: #060; }
+ }
+
+ol.linenums {
+	margin-top: 0;
+	margin-bottom: 0; }
+
+.koo-code-snippet {
+	padding: 20px;
+	background: #f9f9f9;
+	border-radius: 3px; }
+	.koo-code-snippet.linenums {
+		padding: 10px 0 10px;
+		background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.1) 45px, rgba(0, 0, 0, 0) 45px, rgba(0, 0, 0, 0)); }
+	.koo-code-snippet .linenums {
+		counter-reset: item;
+		list-style-type: none;
+		padding: 0; }
+		.koo-code-snippet .linenums li {
+			position: relative;
+			padding-left: 55px; }
+		.koo-code-snippet .linenums li:before {
+			content: counter(item) " ";
+			counter-increment: item;
+			text-align: right;
+			width: 45px;
+			position: absolute;
+			left: 0;
+			color: rgba(0, 0, 0, 0.5); }
+
+/* =============================================================================
+ *	1.8 Accordions
+ * ============================================================================= */
+	.koo-accordion {
+	  margin: 0 0 2em 0;
+	}
+
+	.koo-accordion .koo-accordion-title {
+	  background: #202326;
+	  cursor: pointer;
+	  display: block;
+	  margin: 10px 0 0;
+	  outline: none;
+	  padding: 10px 10px 10px 30px;
+	  position: relative;
+	  color: white;
+	  -webkit-user-select: none;
+	  -moz-user-select: none;
+	  user-select: none;
+	}
+
+	.koo-accordion-inner {
+	  background: white;
+	  border-top: none;
+	  padding: 20px !important;
+	}
+
+	.koo-accordion span.ui-icon {
+	  background: url('../img/toggle-closed.png') no-repeat;
+	  height: 12px;
+	  left: 10px;
+	  margin: -6px 0 0 0;
+	  position: absolute;
+	  top: 50%;
+	  width: 12px;
+	}
+
+	.koo-accordion .ui-state-active .ui-icon {
+	  background: url('../img/toggle-open.png') no-repeat;
+	}
+
+/* =============================================================================
+1.9 Tabs
+============================================================================= */
+.koo-tabs.ui-tabs .ui-tabs-hide {
+  position: absolute;
+  left: -10000px;
+}
+
+.koo-tabs {
+  background: none;
+  margin: 0 0 2em 0;
+}
+
+.koo-tabs ul.koo-nav {
+  list-style: none!important;
+  margin: 0 0 30px!important;
+  padding: 0;
+  background: none;
+  border: 0;
+  float: none;
+}
+.koo-tabs ul.koo-nav:after{
+	content:" ";
+	display: block;
+	clear: both;
+}
+.koo-tabs ul.koo-nav li {
+  float: left;
+  position: relative;
+  margin: 0 -1px -1px 0 !important;
+  z-index: 10;
+  list-style: none!important;
+}
+
+.koo-tabs ul.koo-nav li a {
+  display: block;
+  overflow: hidden;
+  padding: 10px 20px;
+  background: #111 ;
+  margin: 0!important;
+  text-decoration: none;
+  color: #fff!important;
+  outline: none;
+}
+
+.koo-tabs ul.koo-nav li a:hover {
+  background: #fff!important;
+  margin: 0!important;
+}
+
+.koo-tabs ul.koo-nav li.ui-tabs-selected a,
+.koo-tabs ul.koo-nav li.ui-tabs-active a {
+  background: #fff;
+  color: #111!important;
+}
+
+.koo-tabs .koo-tab {
+  background: #fff;
+  
+}

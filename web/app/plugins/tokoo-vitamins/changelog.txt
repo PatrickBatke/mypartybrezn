@@ -1,0 +1,22 @@
+6.2.2 - 20-04-2017
+- Fix role demo importer 
+
+6.1.1 - 20-09-2016
+- Add koo_icon shortcode
+
+6.1 - 08-09-2016
+- Fix several issue in customizer
+- Add oneclick importer script
+
+4.1.* - 10-08-2016
+- change arg store list shotcode to latest version
+
+4.1 - 18-02-2016
+- Move tokoo_instagram_scrapper functions to tokoo-vitamins 
+
+3.1 - 15-12-2015
+- Fix post type menu position to avoid crashes.
+- Fix wp menu manager error caused extension
+
+3.0 - 02-12-2015
+- Enable codestar customizer feature

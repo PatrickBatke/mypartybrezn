@@ -1,0 +1,149 @@
+2.1.10 - 01-11-2018
+- Compatible with Ninja Form Version 3.3.17
+- Compatible WooCommerce Version 3.5.1
+- Fix Google Maps Api issue
+- Update Visual Composer to the v5.5.5
+- Fix issue in Backgournd Header Style
+
+2.1.9 - 02-09-2018
+- Update Revoslider plugin to the v5.4.8
+- Update Visual Composer to the v5.5.2
+
+2.1.8 - 01-09-2018
+- Contact Template - Google Maps - option to use Embed Map without API key
+- Contact Template - Google Maps - option to change map height (px)
+- Compatible with Ninja Form 3.0
+- Update Widget Tokoo - Our Location
+
+2.1.7 - 28-05-2018
+- Add compatibility to WooCommerce 3.4.0
+
+2.1.6 - 20-04-2018
+- fix header style options in page editor
+
+2.1.5 - 28-02-2018
+- Add compatibility to WooCommerce 3.3.3
+- fix price in variable product
+
+2.1.4 - 19-02-2018
+- Fix header menu in Mobile Kitkat Version
+- Add Compatibility to WooCommerce 3.3.1
+- fix widget our location 
+
+
+2.0.4 - 17-01-2018
+- double check widget restaurant hours
+- fix responsive issue in shop page
+
+2.0.3 - 7-12-2017
+- fix change background header in shop page & Posts page
+- Fix add to cart count in mini cart header
+
+2.0.2 - 20-10-2017
+- fix filter category in Widget Tokoo - Post Type List
+- update import demo data
+
+2.0.1 - 05-07-2017
+- Fix outdata template WooCommerce 3.1.0
+- Add link to the title of product menu element.
+
+2.0 - 08-05-2017
+- Fix outdate template woocommerce.
+
+1.1.9 - 06-04-2017
+- Add compatibility to WooCommerce 3.0
+- Update revoslider to the latest version 5.4.1
+- Update Visual Composer to the latest version 5.1.1
+- Fix role of demo importer on tokoo-vitamins plugin 
+
+1.1.8 - 06-01-2017
+- Fix Dummy data URL
+
+1.1.7 - 23-11-2016
+- fix cart not open mini cart in header
+- add valid and invalid image
+- Update Revoslider plugin to the v5.3.0.2
+- Update Visual Composer to the v5.0.1
+
+1.1.6 - 09-09-2016
+- add sidebar in category product
+- Move oneclick importer features to the tokoo-vitamins
+- Change plugin repository link
+- Add dropdown cart to the header 1 and 2
+
+1.1.5 - 24-08-2016
+- Change plugin repository link
+- Fix content product ajax
+
+1.1.4 - 01-08-2016
+- Compatible with woocommerce 2.6.x
+- Add auto updater script
+- Add oneclick demo importer feature.
+- Add 1 header variation, so total 3 header variation now.
+- Add 3 Menu Element for visual composer. 
+- Upgrade tokoo-vitamins plugin to v6.0
+- Add advance field in customizer. 
+- Add product content style. 
+
+1.1.3 - 30-06-2016
+- Compatible with WooCommerce 2.6.x
+
+1.1.2 - 19-05-2016
+- Add backgound header options
+
+1.1.1 - 04-05-2016
+- Update Revoslider plugin to the v5.2.5.1
+
+1.1.0 - 26-04-2016
+- Update Visual Composer to the v4.11.2.1
+
+1.0.9 - 11-04-2016
+- Update fontawesome to the v4.5.0
+- Update Revoslider plugin to the v5.2.5
+
+1.0.8 - 21-03-2016
+- Fix visual composer post grid issue
+- Fix tokoo products element responsive issue 
+- Update Visual Composer to the v4.11.1
+- Update Revoslider plugin to the v5.2.3.5
+
+1.0.7 - 10-02-2016
+- Compatible with WooCommerce 2.5.2
+- Fix the header image for single product page and all woocommerce page
+
+1.0.6 - 19-01-2016
+- Compatible with WooCommerce 2.5.0
+- Update visual composer plugin to v4.9.2
+_ fix widget post type cache
+- Fix unreadable character
+- Fix page shop header image
+
+1.0.5 - 12-01-2016
+- Fix themeforest item widget.
+- Update revoslider plugin to the v5.1.6
+- Add image max-width to main-content
+
+1.0.4 - 05-01-2016
+- add top header options
+- Fix Single Product responsive
+- Fix Cart Page responsive
+- Fix Checkout Page responsive
+- Updated global styles
+
+1.0.3 - 04-01-2016
+- Fix header variant 1 and variant 2
+
+1.0.2 - 28-12-2015
+- Change header conditional methods.
+- Add price box element for visual composer.
+- Update visual composer to the latest version v4.9.1
+
+1.0.1 - 16-12-2015
+- Update tokoo-vitamins to v3.1
+- Update Visual Composer plugin to v4.9
+- Fix wordpress menu manager issue.
+- Fix Off canvas sidebar in WooCommerce page
+- Update Predefined template visual composer
+
+1.0
+- Initial Release

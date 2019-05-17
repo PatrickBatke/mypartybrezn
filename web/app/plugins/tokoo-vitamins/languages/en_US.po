@@ -1,0 +1,1798 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tokoo Vitamins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-05 10:07+0700\n"
+"PO-Revision-Date: 2016-12-05 10:08+0700\n"
+"Last-Translator: Tokokoo <support@tokokoo.com>\n"
+"Language-Team: Tokoo <support@tokomoo.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: extensions/carbon-fields/core/Container/Container.php:554
+msgid "General"
+msgstr ""
+
+#: extensions/carbon-fields/core/Container/Container.php:740
+msgid "Please fill out all required fields highlighted below."
+msgstr ""
+
+#: extensions/carbon-fields/core/Container/Container.php:741
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr ""
+
+#: extensions/carbon-fields/core/Container/Theme_Options_Container.php:149
+#: extensions/options/classes/framework.class.php:359
+msgid "Settings saved."
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Association_Field.php:371
+#: extensions/carbon-fields/core/Field/Relationship_Field.php:265
+msgid "Edit"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Broken_Field.php:11
+msgid "This field is misconfigured"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Color_Field.php:17
+msgid "Select a Color"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Complex_Field.php:38
+msgid "Entry"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Complex_Field.php:39
+msgid "Entries"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Complex_Field.php:496
+msgid "Collapse/Expand"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Complex_Field.php:500
+msgid "Clone"
+msgstr ""
+
+# @ tokokoo
+#: extensions/carbon-fields/core/Field/Complex_Field.php:504
+#: extensions/mega-menus-vertical/edit_custom_walker.php:240
+#: extensions/mega-menus/edit_custom_walker.php:248
+#: extensions/options/fields/group/group.php:33
+#: extensions/options/fields/group/group.php:63
+#: extensions/taxonomy-metabox/Tax-meta-class.php:372
+#: extensions/taxonomy-metabox/Tax-meta-class.php:419
+msgid "Remove"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Complex_Field.php:565
+msgid "Complex field <code>"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Date_Field.php:39
+msgid "Date"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Field.php:816
+#: extensions/carbon-fields/core/Field/File_Field.php:28
+msgid "Files"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Field.php:817
+msgid "The address could not be found. "
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Field.php:818
+msgid "Geocode was not successful for the following reason: "
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Field.php:819
+#, php-format
+msgid "Maximum number of items reached (%s items)"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Field.php:820
+#, php-format
+msgid "Maximum number of rows reached (%s rows)"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Field.php:821
+#, php-format
+msgid "Cannot create more than %s rows"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Field.php:822
+msgid "Please enter the name of the new sidebar:"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Field.php:823
+msgid "Are you sure you wish to remove this sidebar?"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Field.php:824
+msgid "Add Sidebar"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Field.php:825
+#, php-format
+msgid "There are no %s yet. Click <a href=\"#\">here</a> to add one."
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Field.php:826
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Field.php:827
+#, php-format
+msgid "Minimum number of rows not reached (%d %s)"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Field.php:828
+msgid "Please fill out all fields correctly. "
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Field.php:829
+msgid "This field is required. "
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Field.php:830
+msgid "Please choose an option. "
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/File_Field.php:26
+#: extensions/carbon-fields/core/Field/File_Field.php:27
+msgid "Select File"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Footer_Scripts_Field.php:14
+msgid ""
+"If you need to add scripts to your footer (like Google Analytics tracking "
+"code), you should enter them in this box."
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Gravity_Form_Field.php:45
+msgid "No form"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Gravity_Form_Field.php:80
+msgid "Please install Gravity Forms plugin"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Gravity_Form_Field.php:86
+msgid "No Gravity Forms have been found."
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Header_Scripts_Field.php:14
+msgid "If you need to add scripts to your header, you should enter them here."
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Image_Field.php:18
+#: extensions/carbon-fields/core/Field/Image_Field.php:19
+msgid "Select Image"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Image_Field.php:20
+msgid "Images"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Map_Field.php:102
+msgid "Locate Address on the map"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Map_Field.php:107
+msgid "Find"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Radio_Field.php:15
+#: extensions/carbon-fields/core/Field/Select_Field.php:33
+#: extensions/carbon-fields/core/Field/Set_Field.php:73
+msgid "no options"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Relationship_Field.php:211
+msgid "selected item"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Relationship_Field.php:211
+#: extensions/carbon-fields/core/Field/Relationship_Field.php:212
+msgid "selected items"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Relationship_Field.php:219
+msgid "out of"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Relationship_Field.php:239
+msgid "Associated:"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Rich_Text_Field.php:31
+#: extensions/carbon-fields/core/Field/Rich_Text_Field.php:32
+msgid "Add Media"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Rich_Text_Field.php:43
+msgid "Visual"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Rich_Text_Field.php:46
+msgid "Text"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Set_Field.php:92
+msgid "Show All Options"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Sidebar_Field.php:35
+msgctxt "sidebar"
+msgid "Add New"
+msgstr ""
+
+#: extensions/carbon-fields/core/Field/Time_Field.php:75
+msgid "Timepicker"
+msgstr ""
+
+#: extensions/carbon-fields/core/Manager/Sidebar_Manager.php:104
+msgid "Sidebar with the same ID is already registered."
+msgstr ""
+
+#: extensions/carbon-fields/core/Manager/Sidebar_Manager.php:131
+msgid "Sidebar not found."
+msgstr ""
+
+#: extensions/carbon-fields/templates/Container/theme_options.php:31
+msgid "Actions"
+msgstr ""
+
+#: extensions/carbon-fields/templates/Container/theme_options.php:40
+msgid "Save Changes"
+msgstr ""
+
+#: extensions/carbon-fields/templates/Container/widget.php:5
+msgid "No options are available for this widget."
+msgstr ""
+
+#: extensions/custom-css/custom-css.php:51
+#: extensions/custom-css/custom-css.php:71
+msgid "Custom CSS"
+msgstr ""
+
+#: extensions/custom-css/custom-css.php:80
+#, php-format
+msgid "Easily add custom css rules to %s theme and its child themes"
+msgstr ""
+
+#: extensions/customizer/Category_Dropdown_Custom_Control.php:24
+msgid "--none--"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-customizer-importer.php:36
+#, php-format
+msgid "The customizer import file is missing! File path: %s"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-customizer-importer.php:56
+msgid ""
+"The customizer import file is not in a correct format. Please make sure to "
+"use the correct customizer import file."
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-customizer-importer.php:62
+msgid ""
+"The customizer import file is not suitable for current theme. You can only "
+"import customizer settings for the same theme or a child theme."
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-helpers.php:70
+#, php-format
+msgid ""
+"\"import_file_url\" or \"local_import_file\" for %s%s%s are not defined!"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-helpers.php:205
+#, php-format
+msgid "URL for %s%s%s file is not defined!"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-helpers.php:227
+#, php-format
+msgid ""
+"An error occurred while fetching %s%s%s file from the server!%sReason: %s - "
+"%s."
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-helpers.php:267
+#: extensions/importer/inc/class-ocdi-helpers.php:311
+#, php-format
+msgid ""
+"An error occurred while writing file to your server! Tried to write a file "
+"to: %s%s."
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-helpers.php:346
+#, php-format
+msgid ""
+"An error occurred while reading a file from your server! Tried reading file "
+"from path: %s%s."
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-helpers.php:370
+#, php-format
+msgid ""
+"This WordPress page does not have %sdirect%s write file access. This plugin "
+"needs it in order to save the demo import xml file to the upload directory "
+"of your site. You can change this setting with these instructions: %s."
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-helpers.php:381
+#: extensions/importer/inc/class-ocdi-main.php:83
+msgid "One Click Demo Import"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-helpers.php:382
+#: extensions/importer/inc/class-ocdi-main.php:84
+#: extensions/importer/inc/class-ocdi-main.php:166
+msgid "Import Demo Data"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-helpers.php:394
+msgid ""
+"An error occurred while retrieving reading/writing permissions to your "
+"server (could not retrieve WP filesystem credentials)!"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-helpers.php:402
+msgid "Your WordPress login credentials don't allow to use WP_Filesystem!"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-helpers.php:467
+msgid "One Click Demo Import - "
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-helpers.php:503
+#, php-format
+msgid ""
+"%sYour user role isn't high enough. You don't have permission to import demo "
+"data.%s"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-helpers.php:540
+msgid ""
+"Please upload XML file for content import. If you want to import widgets or "
+"customizer settings only, please use Widget Importer & Exporter or the "
+"Customizer Export/Import plugin."
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-helpers.php:542
+#: extensions/importer/inc/class-ocdi-helpers.php:564
+#: extensions/importer/inc/class-ocdi-helpers.php:583
+#: extensions/importer/inc/class-ocdi-helpers.php:602
+#: extensions/importer/inc/class-ocdi-helpers.php:610
+msgid "Upload files"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-helpers.php:560
+#, php-format
+msgid "Widget file was not uploaded. Error: %s"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-helpers.php:579
+#, php-format
+msgid "Customizer file was not uploaded. Error: %s"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-helpers.php:598
+#, php-format
+msgid "Toptions file was not uploaded. Error: %s"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-helpers.php:608
+msgid "The import files were successfully uploaded!"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-helpers.php:626
+#, php-format
+msgid "Initial max execution time = %s"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-helpers.php:630
+#, php-format
+msgid ""
+"Files info:%1$sSite URL = %2$s%1$sData file = %3$s%1$sWidget file = %4$s"
+"%1$sCustomizer file = %5$s%1$sTheme Options file = %6$s"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-helpers.php:634
+#: extensions/importer/inc/class-ocdi-helpers.php:635
+#: extensions/importer/inc/class-ocdi-helpers.php:636
+msgid "not defined!"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-main.php:108
+#, php-format
+msgid ""
+"%sWarning: your server is using %sPHP safe mode%s. This means that you might "
+"experience server timeout errors.%s"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-main.php:132
+msgid ""
+"Importing demo data (post, pages, images, theme settings, ...) is the "
+"easiest way to setup your theme. It will allow you to quickly edit "
+"everything instead of creating content from scratch. When you import the "
+"data, the following things might happen:"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-main.php:136
+msgid "Demo Importer Reminder."
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-main.php:138
+msgid "Before you begin, make sure all the required plugins are activated."
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-main.php:139
+msgid ""
+"No existing posts, pages, categories, images, custom post types or any other "
+"data will be deleted or modified."
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-main.php:140
+msgid "Posts, pages, images, widgets and menus will get imported."
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-main.php:141
+msgid ""
+"Please click \"Import Demo Data\" button only once and wait, it can take a "
+"couple of minutes."
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-main.php:184
+msgid "Please wait We are importing demo data!"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-main.php:185
+msgid "The process may take a while, since we' importing large images"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-main.php:215
+msgid "No preview image defined for this import."
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-main.php:272
+msgid "Manually uploaded files"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-main.php:289
+#: extensions/importer/inc/class-ocdi-main.php:300
+msgid "Downloaded files"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-main.php:296
+#, php-format
+msgid "The import files for: %s were successfully downloaded!"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-main.php:306
+msgid "No import files specified!"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-main.php:360
+#, php-format
+msgid ""
+"%1$s%3$sThat's it, all done!%4$s%2$sThe demo import has finished. Please "
+"check your page and make sure that everything has imported correctly"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-main.php:371
+#, php-format
+msgid ""
+"%1$sThe demo import has finished, but there were some import errors.%2$sMore "
+"details about the errors can be found in this %3$s%5$slog file%6$s%4$s%7$s"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-main.php:425
+msgid "Max execution time after content import = "
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-main.php:427
+msgid "Importing content"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-main.php:466
+#: extensions/importer/inc/class-ocdi-main.php:478
+msgid "Importing widgets"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-main.php:500
+#: extensions/importer/inc/class-ocdi-main.php:508
+msgid "Importing customizer settings"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-main.php:506
+msgid "Customizer settings import finished!"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-main.php:529
+#: extensions/importer/inc/class-ocdi-main.php:537
+msgid "Importing options settings"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-main.php:535
+msgid "Options settings import finished!"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-main.php:587
+msgid "Completed AJAX call number: "
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-toptions-importer.php:25
+#, php-format
+msgid "The theme options import file is missing! File path: %s"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-widget-importer.php:44
+msgid "Widget import file could not be found."
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-widget-importer.php:76
+msgid "Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-widget-importer.php:116
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-widget-importer.php:138
+msgid "Site does not support widget"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-widget-importer.php:173
+msgid "Widget already exists"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-widget-importer.php:232
+msgid "Imported"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-widget-importer.php:236
+msgid "Imported to Inactive"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-widget-importer.php:242
+msgid "No Title"
+msgstr ""
+
+#: extensions/importer/inc/class-ocdi-widget-importer.php:291
+msgid "No results for widget import!"
+msgstr ""
+
+#: extensions/importer/one-click-demo-import.php:16
+#, php-format
+msgid ""
+"The %2$sOne Click Demo Import%3$s plugin requires %2$sPHP 5.3.2+%3$s to run "
+"properly. Please contact your hosting company and ask them to update the PHP "
+"version of your site to at least PHP 5.3.2.%4$s Your current version of PHP: "
+"%2$s%1$s%3$s"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:130
+msgid "Could not open the file for parsing"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:166
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:282
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:355
+#, php-format
+msgid ""
+"This WXR file (version %s) is newer than the importer (version %s) and may "
+"not be supported. Please consider updating."
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:504
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:564
+msgid "Invalid author mapping"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:665
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:753
+#, php-format
+msgid "Failed to import \"%s\": Invalid post type %s"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:763
+#, php-format
+msgid "%s \"%s\" already exists."
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:842
+#, php-format
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:856
+#, php-format
+msgid "Failed to import \"%s\" (%s)"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:888
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1701
+#, php-format
+msgid "Imported \"%s\" (%s)"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:893
+#, php-format
+msgid "Post %d remapped to %d"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1038
+msgid "Invalid file type"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1516
+#, php-format
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1537
+#, php-format
+msgid "Imported user \"%s\""
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1541
+#, php-format
+msgid "User %d remapped to %d"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1677
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1706
+#, php-format
+msgid "Term %d remapped to %d"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1758
+#, php-format
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1771
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1776
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1782
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1803
+#, php-format
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1817
+#, php-format
+msgid "Could not find the post parent for \"%s\" (post #%d)"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1822
+#, php-format
+msgid "Post %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1837
+#, php-format
+msgid "Could not find the author for \"%s\" (post #%d)"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1842
+#, php-format
+msgid "Post %d was imported with author \"%s\", but could not be found"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1868
+#, php-format
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1879
+#, php-format
+msgid "Could not update \"%s\" (post #%d) with mapped data"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1924
+#, php-format
+msgid "Could not find the menu object for \"%s\" (post #%d)"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1929
+#, php-format
+msgid ""
+"Post %d was imported with object \"%d\" of type \"%s\", but could not be "
+"found"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1952
+#, php-format
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1956
+#, php-format
+msgid "Comment %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1971
+#, php-format
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1975
+#, php-format
+msgid "Comment %d was imported with author %d, but could not be found"
+msgstr ""
+
+#: extensions/importer/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1992
+#, php-format
+msgid "Could not update comment #%d with mapped data"
+msgstr ""
+
+#: extensions/mega-menus-vertical/edit_custom_walker.php:79
+#: extensions/mega-menus/edit_custom_walker.php:79
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: extensions/mega-menus-vertical/edit_custom_walker.php:83
+#: extensions/mega-menus/edit_custom_walker.php:83
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: extensions/mega-menus-vertical/edit_custom_walker.php:124
+#: extensions/mega-menus/edit_custom_walker.php:124
+msgid "Edit Menu Item"
+msgstr ""
+
+# @ tokokoo
+#: extensions/mega-menus-vertical/edit_custom_walker.php:133
+#: extensions/mega-menus/edit_custom_walker.php:133
+msgid "URL"
+msgstr ""
+
+#: extensions/mega-menus-vertical/edit_custom_walker.php:140
+#: extensions/mega-menus/edit_custom_walker.php:140
+msgid "Navigation Label"
+msgstr ""
+
+#: extensions/mega-menus-vertical/edit_custom_walker.php:146
+#: extensions/mega-menus/edit_custom_walker.php:146
+msgid "Title Attribute"
+msgstr ""
+
+#: extensions/mega-menus-vertical/edit_custom_walker.php:153
+#: extensions/mega-menus/edit_custom_walker.php:153
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: extensions/mega-menus-vertical/edit_custom_walker.php:158
+#: extensions/mega-menus/edit_custom_walker.php:158
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: extensions/mega-menus-vertical/edit_custom_walker.php:164
+#: extensions/mega-menus/edit_custom_walker.php:164
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: extensions/mega-menus-vertical/edit_custom_walker.php:170
+#: extensions/mega-menus/edit_custom_walker.php:170
+msgid "Description"
+msgstr ""
+
+#: extensions/mega-menus-vertical/edit_custom_walker.php:172
+#: extensions/mega-menus/edit_custom_walker.php:172
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: extensions/mega-menus-vertical/edit_custom_walker.php:180
+#: extensions/mega-menus/edit_custom_walker.php:180
+msgid "Mega Menu"
+msgstr ""
+
+#: extensions/mega-menus-vertical/edit_custom_walker.php:191
+#: extensions/mega-menus/edit_custom_walker.php:191
+msgid "Background"
+msgstr ""
+
+#: extensions/mega-menus-vertical/edit_custom_walker.php:198
+msgid "Padding Bottom"
+msgstr ""
+
+#: extensions/mega-menus-vertical/edit_custom_walker.php:204
+msgid "Padding Right"
+msgstr ""
+
+#: extensions/mega-menus-vertical/edit_custom_walker.php:214
+#: extensions/mega-menus/edit_custom_walker.php:222
+msgid "Menu Icon"
+msgstr ""
+
+#: extensions/mega-menus-vertical/edit_custom_walker.php:227
+#: extensions/mega-menus/edit_custom_walker.php:235
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+# @ tokokoo
+#: extensions/mega-menus-vertical/edit_custom_walker.php:241
+#: extensions/mega-menus/edit_custom_walker.php:249
+msgid "Cancel"
+msgstr ""
+
+#: extensions/mega-menus/edit_custom_walker.php:198
+msgid "Background Position"
+msgstr ""
+
+#: extensions/mega-menus/edit_custom_walker.php:210
+msgid "Fullwidth Mega Menu"
+msgstr ""
+
+#: extensions/mega-menus/edit_custom_walker.php:211
+msgid "Make the Mega Menu Fullwidth?"
+msgstr ""
+
+#: extensions/options/classes/framework.class.php:172
+msgid "Success. Imported backup options."
+msgstr ""
+
+#: extensions/options/classes/framework.class.php:177
+msgid "Default options restored."
+msgstr ""
+
+#: extensions/options/classes/framework.class.php:196
+msgid "Default options restored for only this section."
+msgstr ""
+
+#: extensions/options/classes/framework.class.php:360
+msgid "Save"
+msgstr ""
+
+#: extensions/options/classes/framework.class.php:360
+msgid "Saving..."
+msgstr ""
+
+#: extensions/options/classes/framework.class.php:361
+msgid "Restore"
+msgstr ""
+
+#: extensions/options/classes/framework.class.php:363
+msgid "show all options"
+msgstr ""
+
+#: extensions/options/classes/options.class.php:126
+msgid "CONFIG"
+msgstr ""
+
+#: extensions/options/classes/options.class.php:132
+msgid "USAGE"
+msgstr ""
+
+#: extensions/options/classes/options.class.php:138
+msgid "VALUE"
+msgstr ""
+
+#: extensions/options/classes/options.class.php:211
+#, php-format
+msgid "You are editing language: ( <strong>%s</strong> )"
+msgstr ""
+
+#: extensions/options/fields/background/background.php:31
+#: extensions/options/fields/background/background.php:32
+#: extensions/options/fields/upload/upload.php:23
+#: extensions/options/fields/upload/upload.php:24
+msgid "Upload"
+msgstr ""
+
+#: extensions/options/fields/background/background.php:33
+#: extensions/options/fields/upload/upload.php:25
+msgid "Use Image"
+msgstr ""
+
+#: extensions/options/fields/backup/backup.php:21
+msgid "Import a Backup"
+msgstr ""
+
+#: extensions/options/fields/backup/backup.php:22
+msgid "copy-paste your backup string here"
+msgstr ""
+
+#: extensions/options/fields/backup/backup.php:27
+msgid "Export and Download Backup"
+msgstr ""
+
+#: extensions/options/fields/backup/backup.php:28
+msgid "or"
+msgstr ""
+
+#: extensions/options/fields/backup/backup.php:29
+msgid "!!! Reset All Options !!!"
+msgstr ""
+
+#: extensions/options/fields/backup/backup.php:30
+msgid "Please be sure for reset all of framework options."
+msgstr ""
+
+#: extensions/options/fields/gallery/gallery.php:21
+msgid "Add Gallery"
+msgstr ""
+
+#: extensions/options/fields/gallery/gallery.php:22
+msgid "Edit Gallery"
+msgstr ""
+
+#: extensions/options/fields/gallery/gallery.php:23
+msgid "Clear"
+msgstr ""
+
+#: extensions/options/fields/group/group.php:21
+msgid "Adding"
+msgstr ""
+
+#: extensions/options/fields/icon/icon.php:25
+#: extensions/options/functions/actions.php:47
+msgid "Add Icon"
+msgstr ""
+
+#: extensions/options/fields/icon/icon.php:26
+msgid "Remove Icon"
+msgstr ""
+
+#: extensions/options/fields/image/image.php:22
+msgid "Add Image"
+msgstr ""
+
+#: extensions/options/fields/sorter/sorter.php:24
+msgid "Enabled Modules"
+msgstr ""
+
+#: extensions/options/fields/sorter/sorter.php:25
+msgid "Disabled Modules"
+msgstr ""
+
+# @ tokokoo
+#: extensions/options/fields/switcher/switcher.php:20
+msgid "on"
+msgstr ""
+
+#: extensions/options/fields/switcher/switcher.php:20
+msgid "off"
+msgstr ""
+
+#: extensions/options/fields/textarea/textarea.php:27
+msgid "Add Shortcode"
+msgstr ""
+
+#: extensions/options/fields/typography/typography.php:72
+msgid "Web Safe Fonts"
+msgstr ""
+
+#: extensions/options/fields/typography/typography.php:78
+msgid "Google Fonts"
+msgstr ""
+
+#: extensions/options/fields/typography/typography.php:106
+msgid "Error! Can not load json file."
+msgstr ""
+
+#: extensions/options/functions/actions.php:48
+msgid "Search a Icon..."
+msgstr ""
+
+#: extensions/options/functions/actions.php:49
+msgid "Loading..."
+msgstr ""
+
+#: extensions/options/functions/helpers.php:48
+msgid "This field class is not available!"
+msgstr ""
+
+#: extensions/options/functions/validate.php:14
+msgid "Please write a valid email address!"
+msgstr ""
+
+#: extensions/options/functions/validate.php:33
+msgid "Please write a numeric data!"
+msgstr ""
+
+#: extensions/options/functions/validate.php:51
+msgid "Fatal Error! This field is required!"
+msgstr ""
+
+#: extensions/shortcodes/shortcodes.php:191
+msgid "Tab"
+msgstr ""
+
+#: extensions/shortcodes/shortcodes.php:218
+msgid "This is box title"
+msgstr ""
+
+# @ tokokoo
+#: extensions/shortcodes/shortcodes.php:238
+#: extensions/shortcodes/tinymce/config.php:120
+#: extensions/shortcodes/tinymce/config.php:239
+#: extensions/shortcodes/tinymce/config.php:268
+#: extensions/widgets/class-widget-instagram-grid.php:18
+#: extensions/widgets/class-widget-instagram-slides.php:18
+#: extensions/widgets/class-widget-recent-tweets.php:18
+msgid "Title"
+msgstr ""
+
+#: extensions/shortcodes/shortcodes.php:408
+msgid "N/A"
+msgstr ""
+
+#: extensions/shortcodes/shortcodes.php:457
+msgid "Visit store"
+msgstr ""
+
+#: extensions/shortcodes/shortcodes.php:477
+msgid "&larr; Previous"
+msgstr ""
+
+#: extensions/shortcodes/shortcodes.php:478
+msgid "Next &rarr;"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:13
+msgid "Button URL"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:14
+msgid "Add the button's url eg http://example.com"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:19
+msgid "Button Color"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:20
+msgid "Select the button color"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:22
+#: extensions/shortcodes/tinymce/config.php:203
+#: extensions/shortcodes/tinymce/config.php:350
+msgid "Regular"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:23
+#: extensions/shortcodes/tinymce/config.php:81
+#: extensions/shortcodes/tinymce/config.php:204
+#: extensions/shortcodes/tinymce/config.php:233
+msgid "Info"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:24
+#: extensions/shortcodes/tinymce/config.php:82
+#: extensions/shortcodes/tinymce/config.php:205
+#: extensions/shortcodes/tinymce/config.php:234
+msgid "Warning"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:25
+#: extensions/shortcodes/tinymce/config.php:83
+#: extensions/shortcodes/tinymce/config.php:206
+#: extensions/shortcodes/tinymce/config.php:235
+msgid "Error"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:31
+msgid "Button Size"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:32
+msgid "Select the button size"
+msgstr ""
+
+# @ tokokoo
+#: extensions/shortcodes/tinymce/config.php:34
+msgid "Small"
+msgstr ""
+
+# @ tokokoo
+#: extensions/shortcodes/tinymce/config.php:35
+msgid "Medium"
+msgstr ""
+
+# @ tokokoo
+#: extensions/shortcodes/tinymce/config.php:36
+msgid "Large"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:42
+msgid "Button Target"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:43
+msgid "_self = open in same window. _blank = open in new window"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:51
+msgid "fa-heart"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:53
+msgid "Button Icon"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:54
+msgid "Enter button icon, eg : fa-heart"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:58
+#: extensions/shortcodes/tinymce/config.php:60
+msgid "Button Text"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:61
+msgid "Add the button text"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:66
+msgid "Insert Button Shortcode"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:78
+msgid "Alert Type"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:79
+msgid "Select the alert type"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:88
+msgid "Your Alert!"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:90
+msgid "Alert Text"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:91
+msgid "Add the alert text"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:97
+msgid "Dismissable"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:98
+msgid "Yes"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:99
+msgid "Is the alert dismissable?"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:104
+msgid "Insert Alert Shortcode"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:115
+msgid "Insert Tab Shortcode"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:122
+msgid "Tab Title"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:123
+msgid "Title of the tab"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:127
+#: extensions/shortcodes/tinymce/config.php:129
+msgid "Tab Content"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:130
+msgid "Add the tabs content"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:134
+msgid "Add Tab Shortcode"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:145
+msgid "Insert Columns Shortcode"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:153
+msgid "Column Type"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:154
+msgid "Select the width of the column."
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:156
+msgid "One Third"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:157
+msgid "One Third Last"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:158
+msgid "Two Thirds"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:159
+msgid "Two Thirds Last"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:160
+msgid "One Half"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:161
+msgid "One Half Last"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:162
+msgid "One Fourth"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:163
+msgid "One Fourth Last"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:164
+msgid "Three Fourth"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:165
+msgid "Three Fourth Last"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:166
+msgid "One Fifth"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:167
+msgid "One Fifth Last"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:168
+msgid "Two Fifth"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:169
+msgid "Two Fifth Last"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:170
+msgid "Three Fifth"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:171
+msgid "Three Fifth Last"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:172
+msgid "Four Fifth"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:173
+msgid "Four Fifth Last"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:174
+msgid "One Sixth"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:175
+msgid "One Sixth Last"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:176
+msgid "Five Sixth"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:177
+msgid "Five Sixth Last"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:183
+msgid "Column Content"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:184
+msgid "Add the column content."
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:188
+msgid "Add Column Shortcode"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:200
+msgid "Highlight Color"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:201
+msgid "Select the highlight color"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:210
+msgid "Highlighted Text"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:212
+msgid "Highlight Text"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:213
+msgid "Add the highlight's text"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:218
+msgid "Insert Highlight Shortcode"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:230
+msgid "Box Color"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:231
+msgid "Select the boxes color"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:241
+msgid "Box Title"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:242
+msgid "The box title"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:245
+msgid "Your Box Content!"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:247
+msgid "Box Content"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:248
+msgid "Add the box content"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:253
+msgid "Insert Box Shortcode"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:263
+msgid "Insert Accordion Shortcode"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:270
+msgid "Accordion Title"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:271
+msgid "Title of the accordion"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:274
+#: extensions/shortcodes/tinymce/config.php:276
+msgid "Accordion Content"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:277
+msgid "Add the accordions content"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:281
+msgid "Add Accordion Shortcode"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:292
+msgid "Your Paragraph Content!"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:294
+msgid "Paragraph Content"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:295
+msgid "Add the paragraph content"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:300
+msgid "Insert Leading Pragraph Shortcode"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:311
+msgid "Dropcap Type"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:312
+msgid "Select the dropcap type"
+msgstr ""
+
+# @ tokokoo
+#: extensions/shortcodes/tinymce/config.php:314
+msgid "Normal"
+msgstr ""
+
+# @ tokokoo
+#: extensions/shortcodes/tinymce/config.php:315
+#: extensions/shortcodes/tinymce/config.php:351
+msgid "Boxed"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:319
+msgid "D"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:321
+msgid "Dropcap Text"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:322
+msgid "Add the dropcap text"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:326
+msgid "Insert Dropcap Shortcode"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:337
+msgid "Position"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:338
+msgid "Select the dropcap position"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:340
+msgid "Left"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:341
+msgid "Right"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:346
+msgid "Quote Style"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:347
+msgid "Select the quote style"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:349
+msgid "Plain"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:355
+msgid "John Doe"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:357
+msgid "Quote Cite"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:358
+msgid "Add the quote cite"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:361
+msgid "Company Name"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:363
+msgid "From"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:364
+msgid "Add the company name"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:369
+msgid "Avatar Image URL"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:370
+msgid "Add the avatar image url"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:373
+#: extensions/shortcodes/tinymce/config.php:375
+msgid "Quote Content"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:376
+msgid "Add the Quote Content"
+msgstr ""
+
+#: extensions/shortcodes/tinymce/config.php:380
+msgid "Insert Pullquote Shortcode"
+msgstr ""
+
+#: extensions/taxonomy-metabox/Tax-meta-class.php:385
+msgid "Add"
+msgstr ""
+
+#: extensions/taxonomy-metabox/Tax-meta-class.php:718
+msgid "Remove Image"
+msgstr ""
+
+#: extensions/taxonomy-metabox/Tax-meta-class.php:720
+msgid "Upload Image"
+msgstr ""
+
+#: extensions/taxonomy-metabox/Tax-meta-class.php:740
+msgid "Select a color"
+msgstr ""
+
+#: extensions/widgets/class-widget-instagram-grid.php:9
+msgid "Tokoo - Instagram Photo Grid"
+msgstr ""
+
+#: extensions/widgets/class-widget-instagram-grid.php:10
+msgid "A custom widget to display instagram photos in grid display."
+msgstr ""
+
+#: extensions/widgets/class-widget-instagram-grid.php:19
+#: extensions/widgets/class-widget-instagram-slides.php:19
+#: extensions/widgets/class-widget-recent-tweets.php:19
+msgid "Enter the widget title."
+msgstr ""
+
+#: extensions/widgets/class-widget-instagram-grid.php:23
+msgid "Instagram Photo Grid"
+msgstr ""
+
+#: extensions/widgets/class-widget-instagram-grid.php:30
+#: extensions/widgets/class-widget-instagram-slides.php:30
+msgid "Username"
+msgstr ""
+
+#: extensions/widgets/class-widget-instagram-grid.php:39
+#: extensions/widgets/class-widget-instagram-slides.php:39
+msgid "How many images will be displayed"
+msgstr ""
+
+#: extensions/widgets/class-widget-instagram-grid.php:48
+#: extensions/widgets/class-widget-instagram-slides.php:48
+msgid "Link target"
+msgstr ""
+
+#: extensions/widgets/class-widget-instagram-grid.php:56
+#: extensions/widgets/class-widget-instagram-slides.php:56
+msgid "Self"
+msgstr ""
+
+#: extensions/widgets/class-widget-instagram-grid.php:60
+#: extensions/widgets/class-widget-instagram-slides.php:60
+msgid "Blank"
+msgstr ""
+
+#: extensions/widgets/class-widget-instagram-grid.php:68
+#: extensions/widgets/class-widget-instagram-slides.php:68
+msgid "Link"
+msgstr ""
+
+#: extensions/widgets/class-widget-instagram-grid.php:77
+#: extensions/widgets/class-widget-instagram-slides.php:77
+msgid "Thumbnail Width"
+msgstr ""
+
+#: extensions/widgets/class-widget-instagram-grid.php:86
+#: extensions/widgets/class-widget-instagram-slides.php:86
+msgid "Thumbnail Height"
+msgstr ""
+
+#: extensions/widgets/class-widget-instagram-grid.php:183
+#: extensions/widgets/class-widget-instagram-slides.php:184
+#: includes/tokoo-vitamins-functions.php:21
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: extensions/widgets/class-widget-instagram-grid.php:186
+#: extensions/widgets/class-widget-instagram-slides.php:187
+#: includes/tokoo-vitamins-functions.php:24
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: extensions/widgets/class-widget-instagram-grid.php:193
+#: extensions/widgets/class-widget-instagram-grid.php:204
+#: extensions/widgets/class-widget-instagram-grid.php:208
+#: extensions/widgets/class-widget-instagram-slides.php:194
+#: extensions/widgets/class-widget-instagram-slides.php:205
+#: extensions/widgets/class-widget-instagram-slides.php:209
+#: includes/tokoo-vitamins-functions.php:31
+#: includes/tokoo-vitamins-functions.php:42
+#: includes/tokoo-vitamins-functions.php:46
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: extensions/widgets/class-widget-instagram-grid.php:249
+#: extensions/widgets/class-widget-instagram-slides.php:250
+#: includes/tokoo-vitamins-functions.php:87
+msgid "Instagram Image"
+msgstr ""
+
+#: extensions/widgets/class-widget-instagram-grid.php:275
+#: extensions/widgets/class-widget-instagram-slides.php:276
+#: includes/tokoo-vitamins-functions.php:113
+msgid "Instagram did not return any images."
+msgstr ""
+
+#: extensions/widgets/class-widget-instagram-slides.php:9
+msgid "Tokoo - Instagram Photo Slides"
+msgstr ""
+
+#: extensions/widgets/class-widget-instagram-slides.php:10
+msgid "A custom widget to display instagram photos in slides display."
+msgstr ""
+
+#: extensions/widgets/class-widget-instagram-slides.php:23
+msgid "Instagram Photo Slides"
+msgstr ""
+
+#: extensions/widgets/class-widget-recent-tweets.php:9
+msgid "Tokoo - Recent Tweets"
+msgstr ""
+
+#: extensions/widgets/class-widget-recent-tweets.php:10
+msgid ""
+"A custom widget to display your recent tweets. Work with new Twitter API."
+msgstr ""
+
+#: extensions/widgets/class-widget-recent-tweets.php:23
+msgid "Recent Tweets"
+msgstr ""
+
+#: extensions/widgets/class-widget-recent-tweets.php:30
+msgid "Screen Name"
+msgstr ""
+
+#: extensions/widgets/class-widget-recent-tweets.php:39
+msgid "Consumer Key"
+msgstr ""
+
+#: extensions/widgets/class-widget-recent-tweets.php:48
+msgid "Consumer Secret"
+msgstr ""
+
+#: extensions/widgets/class-widget-recent-tweets.php:57
+msgid "Number of Tweets"
+msgstr ""
+
+#: extensions/widgets/class-widget-recent-tweets.php:66
+msgid "Show Avatar Image"
+msgstr ""
+
+#: extensions/widgets/class-widget-recent-tweets.php:75
+msgid "Show Follow Button"
+msgstr ""
+
+#: extensions/widgets/class-widget-recent-tweets.php:113
+msgid "Please fill all widget settings."
+msgstr ""
+
+#: extensions/widgets/class-widget-recent-tweets.php:119
+msgid "Couldn't find the required class."
+msgstr ""
+
+#: extensions/widgets/class-widget-recent-tweets.php:213
+msgid "right now"
+msgstr ""
+
+#: extensions/widgets/class-widget-recent-tweets.php:215
+msgid " seconds ago"
+msgstr ""
+
+#: extensions/widgets/class-widget-recent-tweets.php:217
+msgid "about 1 minute ago"
+msgstr ""
+
+#: extensions/widgets/class-widget-recent-tweets.php:219
+msgid " minutes ago"
+msgstr ""
+
+#: extensions/widgets/class-widget-recent-tweets.php:221
+msgid "about 1 hour ago"
+msgstr ""
+
+#: extensions/widgets/class-widget-recent-tweets.php:223
+msgid " hours ago"
+msgstr ""
+
+#: extensions/widgets/class-widget-recent-tweets.php:225
+msgid "yesterday"
+msgstr ""
+
+#: extensions/widgets/class-widget-recent-tweets.php:227
+msgid " days ago"
+msgstr ""
+
+#: extensions/widgets/class-widget-recent-tweets.php:229
+msgid "over a year ago"
+msgstr ""
+
+#: includes/library/extended-cpts.php:716
+#, php-format
+msgid ""
+"Post type query var \"%s\" clashes with a taxonomy query var of the same name"
+msgstr ""
+
+#: includes/library/extended-cpts.php:1025
+#, php-format
+msgid "The \"%s\" class is required in order to display taxonomy filters"
+msgstr ""
+
+#: includes/library/extended-cpts.php:1550
+msgid "Author"
+msgstr ""
+
+#: includes/library/extended-cpts.php:1835
+#: includes/library/extended-cpts.php:1859
+#, php-format
+msgid "Invalid connection type: %s"
+msgstr ""
+
+#: includes/library/extended-taxos.php:270
+#, php-format
+msgid ""
+"Taxonomy query var \"%s\" clashes with a post type query var of the same name"
+msgstr ""
+
+#: includes/library/extended-taxos.php:275
+#, php-format
+msgid "Taxonomy query var \"%s\" is not allowed"
+msgstr ""
+
+#: includes/library/extended-taxos.php:681
+msgid "Not specified"
+msgstr ""
+
+#: includes/library/extended-twitter-api.php:68
+msgid "Can't get the bearer token, check your credentials"
+msgstr ""
+
+#: includes/library/extended-twitter-api.php:124
+msgid "Bearer Token is good, check your query"
+msgstr ""

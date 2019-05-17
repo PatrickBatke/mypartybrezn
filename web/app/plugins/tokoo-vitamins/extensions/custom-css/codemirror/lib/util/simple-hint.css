@@ -1,0 +1,19 @@
+.CodeMirror-completions {
+	position: absolute;
+	
+	-webkit-box-shadow: 2px 3px 5px rgba(0,0,0,.2);
+	-moz-box-shadow: 2px 3px 5px rgba(0,0,0,.2);
+	box-shadow: 2px 3px 5px rgba(0,0,0,.2);
+	overflow: hidden;
+	z-index: 10;
+}
+
+.CodeMirror-completions select {
+	background: #fafafa;
+	border: none;
+	font-family: monospace;
+	margin: 0;
+	outline: none;
+	padding: 0;
+}
+

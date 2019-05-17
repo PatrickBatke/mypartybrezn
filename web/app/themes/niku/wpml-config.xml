@@ -1,0 +1,15 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">tokoo-portfolio</custom-type>
+		<custom-type translate="1">tokoo-testimonials</custom-type>
+	</custom-types>    
+	<taxonomies>
+		<taxonomy translate="1">project_categories</taxonomy>
+		<taxonomy translate="1">project_tags</taxonomy>
+	</taxonomies>
+	<admin-texts>
+		<key name="tokoo_footer_content"/>
+	</admin-texts>    
+</wpml-config>
+
+

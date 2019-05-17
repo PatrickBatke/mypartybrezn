@@ -1,0 +1,29 @@
+.CodeMirror-dialog {
+	position: relative;
+	
+}
+
+.CodeMirror-dialog > div {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	
+	background: white;
+	border-bottom: 1px solid #eee;
+	color: #333;
+	overflow: hidden;
+	padding: .1em .8em;
+	z-index: 15;
+}
+
+.CodeMirror-dialog input {
+	width: 20em;
+	
+	background: transparent;
+	border: none;
+	color: inherit;
+	font-family: monospace;
+	outline: none;
+}
+

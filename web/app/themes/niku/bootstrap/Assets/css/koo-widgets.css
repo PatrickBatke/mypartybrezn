@@ -1,0 +1,737 @@
+/*===========================
+ * 2. Tokoo Widgets Styles
+ *===========================*/
+
+ .widget{
+	margin-bottom: 30px;
+}
+
+.widget-title{
+	margin: 0 0 20px;
+	padding: 10px 0;
+	font-weight: 100;
+	font-size: 1.9em;
+}
+
+/* tk-image-slider */
+.koo-image-slider {
+	position: relative;
+	overflow: hidden; }
+	.koo-image-slider .slides {
+		list-style: none;
+		overflow: hidden;
+		margin: 0;
+		padding: 0; }
+		.koo-image-slider .slides > li {
+			width: 100%;
+			margin-right: -100%;
+			float: left; }
+			.koo-image-slider .slides > li img {
+				width: 100%;
+				max-width: 100%;
+				height: auto;
+				display: block; }
+	.koo-image-slider:hover .flex-prev, .koo-image-slider:hover .flex-next {
+		opacity: 1;
+		transform: translateX(0); }
+	.koo-image-slider .flex-direction-nav {
+		list-style: none;
+		margin: 0;
+		padding: 0; }
+	.koo-image-slider .flex-prev, .koo-image-slider .flex-next {
+		position: absolute;
+		width: 40px;
+		height: 50px;
+		text-align: center;
+		background: rgba(255, 255, 255, 0.7);
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		z-index: 3;
+		padding-top: 15px;
+		color: #333;
+		opacity: 0;
+		transition: 0.3s ease; }
+		.koo-image-slider .flex-prev .fa, .koo-image-slider .flex-next .fa {
+			font-size: 1.5em; }
+	.koo-image-slider .flex-prev {
+		left: 0;
+		transform: translateX(-40px); }
+	.koo-image-slider .flex-next {
+		right: 0;
+		transform: translateX(40px); }
+
+/* tk-photogrid */
+.koo-photogrid {
+	list-style: none;
+	margin: 0;
+	padding: 0; }
+	.koo-photogrid:hover li:before {
+		background-color: rgba(0, 0, 0, 0.5); }
+	.koo-photogrid li {
+		width: 25%;
+		float: left;
+		padding: 1px;
+		box-sizing: border-box;
+		position: relative; }
+		.koo-photogrid li:before {
+			content: " ";
+			position: absolute;
+			left: 1px;
+			right: 1px;
+			bottom: 1px;
+			top: 1px;
+			z-index: 2;
+			background-color: rgba(0, 0, 0, 0);
+			transition: 0.3s ease; }
+		.koo-photogrid li:hover:before {
+			background-color: rgba(0, 0, 0, 0); 
+			z-index: -1;
+		}
+		.koo-photogrid li a {
+			display: block; }
+		.koo-photogrid li img {
+			width: 100%;
+			height: auto;
+			display: block; }
+
+/* Global Plain List Style */
+.no-list-style {
+	list-style-type: none;
+	margin: 0;
+	padding: 0; }
+
+.post-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0; }
+	.post-list > li {
+		overflow: hidden;
+		padding: 10px 0;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+		.post-list > li:last-child {
+			border-bottom: none; }
+	.post-list .post-image {
+		float: left;
+		margin-right: 20px; }
+	.post-list .post-detail {
+		display: table; }
+		.post-list .post-detail .entry-title {
+			margin: 0;
+			line-height: normal; }
+			.post-list .post-detail .entry-title a {
+				text-decoration: none; }
+
+.author-list {
+	list-style: none;
+	margin: 0;
+	padding: 0; }
+	.author-list > li {
+		padding: 10px 0;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		overflow: hidden; }
+	.author-list .author-image {
+		float: left;
+		margin: 0 20px 0 0; }
+		.author-list .author-image img {
+			border-radius: 50%; }
+	.author-list .author-name {
+		margin: 0; }
+
+.author-grid {
+	list-style: none;
+	margin: 0;
+	padding: 0; }
+	.author-grid:hover .author-image:before {
+		opacity: 1; }
+	.author-grid > li {
+		float: left;
+		width: 25%; }
+		.author-grid > li:hover .author-detail {
+			opacity: 1;
+			transform: scale(1); }
+		.author-grid > li:hover .author-image:before {
+			opacity: 0; }
+	.author-grid .author-image {
+		display: block;
+		position: relative;
+		margin: 0; }
+		.author-grid .author-image:before {
+			content: " ";
+			background: rgba(0, 0, 0, 0.6);
+			opacity: 0;
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 1;
+			transition: 0.3s ease; }
+		.author-grid .author-image img {
+			width: 100%;
+			max-width: 100%;
+			height: auto;
+			display: block; }
+	.author-grid .author-detail {
+		position: absolute;
+		top: 100%;
+		background: rgba(0, 0, 0, 0.8);
+		color: white;
+		z-index: 3;
+		padding: 10px;
+		line-height: normal;
+		transform-origin: 0 0;
+		transform: scale(0);
+		transition: 0.3s ease;
+		opacity: 0;
+		white-space: nowrap; }
+		.author-grid .author-detail:before {
+			content: " ";
+			width: 0;
+			border-width: 5px;
+			border-style: solid;
+			border-color: transparent transparent rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0.8);
+			position: absolute;
+			left: 0;
+			top: -10px; }
+		.author-grid .author-detail .author-name {
+			margin: 0; }
+
+/* Widget Post Slider & Testimonial Slider */
+.post-slider .slides, .testimonial-slider .slides {
+	list-style: none;
+	padding: 0; }
+.post-slider .featured-image, .testimonial-slider .featured-image {
+	margin: 0 0 10px; }
+	.post-slider .featured-image img, .testimonial-slider .featured-image img {
+		max-width: 100%;
+		height: auto;
+		width: 100%;
+		display: block; }
+.post-slider .entry-title, .testimonial-slider .entry-title {
+	margin: 0; }
+.post-slider .flex-direction-nav, .testimonial-slider .flex-direction-nav {
+	list-style: none;
+	margin: 0;
+	padding: 0; }
+	.post-slider .flex-direction-nav li, .testimonial-slider .flex-direction-nav li {
+		display: inline-block; }
+	.post-slider .flex-direction-nav a, .testimonial-slider .flex-direction-nav a {
+		display: block;
+		padding: 10px; }
+	.site-footer .post-slider .flex-direction-nav a, .testimonial-slider .flex-direction-nav a { color: white }
+
+/* Widget user-testimonials */
+.widget.user-testimonials ul.slides {
+	padding: 0;
+	margin: 0; }
+.widget.user-testimonials blockquote {
+	margin: 0;
+	padding: 10px; }
+.widget.user-testimonials cite {
+	font-style: normal; }
+	.widget.user-testimonials cite a {
+		text-decoration: none; }
+
+/* Widget Advertisement */
+.widget.widget-advertisement a {
+	display: block;
+	text-align: center; }
+.widget.widget-advertisement img {
+	margin: 0 auto;
+	display: block;
+	height: auto;
+	max-width: 100%; }
+
+/* Widget Contact */
+.widget.contact-detail address, .widget.contact-detail .contact-email, .widget.contact-detail .contact-phone, .widget.contact-detail .contact-fax {
+	padding-left: 40px;
+	position: relative; }
+	.widget.contact-detail address:before, .widget.contact-detail .contact-email:before, .widget.contact-detail .contact-phone:before, .widget.contact-detail .contact-fax:before {
+		position: absolute;
+		font-family: FontAwesome;
+		top: 0;
+		left: 0;
+		width: 30px;
+		text-align: center; }
+.widget.contact-detail address {
+	font-style: normal; }
+.widget.contact-detail address:before {
+	content: "\f041"; }
+.widget.contact-detail .contact-email:before {
+	content: "\f003"; }
+.widget.contact-detail .contact-phone:before {
+	content: "\f095"; }
+.widget.contact-detail .contact-fax:before {
+	content: "\f1ac"; }
+
+/* Widget Opening Hours */
+.widget.opening-hours .no-list-style li {
+	padding: 5px 10px; }
+.widget.opening-hours .no-list-style li:nth-child(odd) {
+	background: rgba(0, 0, 0, 0.1); }
+.widget.opening-hours .hour {
+	float: right; }
+
+/* Widget Newsletter */
+.widget.widget-newsletter .mc4wp-form {
+	position: relative; }
+	.widget.widget-newsletter .mc4wp-form input[type="text"], .widget.widget-newsletter .mc4wp-form input[type="email"], .widget.widget-newsletter .mc4wp-form input[type="submit"] {
+		box-sizing: border-box; }
+	.widget.widget-newsletter .mc4wp-form input[type="text"], .widget.widget-newsletter .mc4wp-form input[type="email"] {
+		padding: 10px 100px 10px 10px;
+		width: 100%; }
+	.widget.widget-newsletter .mc4wp-form input[type="submit"] {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		border: none; }
+
+/* Tabbed popular posts widget */
+.tabbed-popular-posts-widget .nav-tab {
+	display: table;
+	width: 100%; }
+	.tabbed-popular-posts-widget .nav-tab a {
+		display: table-cell;
+		padding: 10px 0;
+		text-align: center;
+		position: relative;
+		bottom: -1px; }
+		.tabbed-popular-posts-widget .nav-tab a.active {
+			border: 1px solid rgba(0, 0, 0, 0.1);
+			border-bottom: none;
+			background: white; }
+.tabbed-popular-posts-widget .tab-panel {
+	border: 1px solid rgba(0, 0, 0, 0.1); }
+	.tabbed-popular-posts-widget .tab-panel .tab {
+		display: block;
+		width: 100%;
+		float: left;
+		margin-right: -100%;
+		display: none;
+		padding: 10px 20px;
+		overflow: hidden;
+		box-sizing: border-box; }
+		.tabbed-popular-posts-widget .tab-panel .tab.active {
+			display: block; }
+
+/* Social Icons */
+.social-links {
+	text-align: center; }
+	.social-links.large {
+		font-size: 2em; }
+		.social-links.large a {
+			width: 40px;
+			height: 40px;
+			display: inline-block;
+			padding: 0;
+			text-align: center; }
+	.social-links.small {
+		font-size: 0.9em; }
+		.social-links.small a {
+			width: 20px;
+			height: 20px;
+			display: inline-block;
+			padding: 0;
+			text-align: center; }
+	.social-links a {
+		display: inline-block;
+		padding: 0 20px;
+		transition: 0.3s ease;
+		border: none;
+		width: 32px;
+		height: 32px;
+		padding: 0;
+		font-size: 1.1; }
+		.social-links a.facebook {
+			color: #3B5998; }
+		.social-links a.twitter {
+			color: #55ACEE; }
+		.social-links a.google-plus {
+			color: #E02F2F; }
+		.social-links a.linkedin {
+			color: #007BB5; }
+		.social-links a.spotify {
+			color: #78B842; }
+		.social-links a.codepen {
+			color: #000000; }
+		.social-links a.digg {
+			color: #115c83; }
+		.social-links a.foursquare {
+			color: #f84777; }
+		.social-links a.github {
+			color: #000000; }
+		.social-links a.reddit {
+			color: #EF4623; }
+		.social-links a.skype {
+			color: #00aff0; }
+		.social-links a.behance {
+			color: #111111; }
+		.social-links a.youtube {
+			color: #e02b28; }
+		.social-links a.steam {
+			color: #000000; }
+		.social-links a.dribbble {
+			color: #E94C89; }
+		.social-links a.tumblr {
+			color: #44546A; }
+		.social-links a.wordpress {
+			color: #21759b; }
+		.social-links a.instagram {
+			color: #974518; }
+		.social-links a.pinterest {
+			color: #cc2127; }
+		.social-links a.flickr {
+			color: #0063db; }
+		.social-links a.vimeo {
+			color: #1ab7ea; }
+		.social-links a.vine {
+			color: #00b489; }
+		.social-links a.deviantart {
+			color: #536551; }
+		.social-links a.lastfm {
+			color: #DA001C; }
+		.social-links a.soundcloud {
+			color: #FF4700; }
+		.social-links a:hover {
+			color: #adadad; }
+	.social-links.boxed.small a {
+		width: 20px;
+		height: 20px;
+		padding: 1px;
+		font-size: 14px;
+		line-height: normal; }
+	.social-links.boxed.large a {
+		width: 40px;
+		height: 40px;
+		padding: 8px;
+		font-size: 24px; }
+	.social-links.boxed a {
+		text-align: center;
+		color: white;
+		display: block;
+		float: left;
+		width: 32px;
+		height: 32px;
+		padding: 0;
+		margin-bottom: 0; }
+		.social-links.boxed a.facebook {
+			background-color: #3B5998; }
+		.social-links.boxed a.twitter {
+			background-color: #55ACEE; }
+		.social-links.boxed a.google-plus {
+			background-color: #E02F2F; }
+		.social-links.boxed a.linkedin {
+			background-color: #007BB5; }
+		.social-links.boxed a.spotify {
+			background-color: #78B842; }
+		.social-links.boxed a.codepen {
+			background-color: #000000; }
+		.social-links.boxed a.digg {
+			background-color: #115c83; }
+		.social-links.boxed a.foursquare {
+			background-color: #f84777; }
+		.social-links.boxed a.github {
+			background-color: #000000; }
+		.social-links.boxed a.reddit {
+			background-color: #EF4623; }
+		.social-links.boxed a.skype {
+			background-color: #00aff0; }
+		.social-links.boxed a.behance {
+			background-color: #111111; }
+		.social-links.boxed a.youtube {
+			background-color: #e02b28; }
+		.social-links.boxed a.steam {
+			background-color: #000000; }
+		.social-links.boxed a.dribbble {
+			background-color: #E94C89; }
+		.social-links.boxed a.tumblr {
+			background-color: #44546A; }
+		.social-links.boxed a.wordpress {
+			background-color: #21759b; }
+		.social-links.boxed a.instagram {
+			background-color: #974518; }
+		.social-links.boxed a.pinterest {
+			background-color: #cc2127; }
+		.social-links.boxed a.flickr {
+			background-color: #0063db; }
+		.social-links.boxed a.vimeo {
+			background-color: #1ab7ea; }
+		.social-links.boxed a.vine {
+			background-color: #00b489; }
+		.social-links.boxed a.deviantart {
+			background-color: #536551; }
+		.social-links.boxed a.lastfm {
+			background-color: #DA001C; }
+		.social-links.boxed a.soundcloud {
+			background-color: #FF4700; }
+		.social-links.boxed a:hover {
+			background-color: #adadad; }
+	.social-links.rounded.small a {
+		width: 20px;
+		height: 20px;
+		padding: 1px;
+		font-size: 14px;
+		line-height: normal; }
+	.social-links.rounded.large a {
+		width: 40px;
+		height: 40px;
+		padding: 8px;
+		font-size: 24px;
+		line-height: normal; }
+	.social-links.rounded a {
+		text-align: center;
+		color: white;
+		display: block;
+		float: left;
+		margin: 5px;
+		width: 32px;
+		height: 32px;
+		padding: 0;
+		line-height: 2;
+		border-radius: 50%; }
+		.social-links.rounded a.facebook {
+			background-color: #3B5998; }
+		.social-links.rounded a.twitter {
+			background-color: #55ACEE; }
+		.social-links.rounded a.google-plus {
+			background-color: #E02F2F; }
+		.social-links.rounded a.linkedin {
+			background-color: #007BB5; }
+		.social-links.rounded a.spotify {
+			background-color: #78B842; }
+		.social-links.rounded a.codepen {
+			background-color: #000000; }
+		.social-links.rounded a.digg {
+			background-color: #115c83; }
+		.social-links.rounded a.foursquare {
+			background-color: #f84777; }
+		.social-links.rounded a.github {
+			background-color: #000000; }
+		.social-links.rounded a.reddit {
+			background-color: #EF4623; }
+		.social-links.rounded a.skype {
+			background-color: #00aff0; }
+		.social-links.rounded a.behance {
+			background-color: #111111; }
+		.social-links.rounded a.youtube {
+			background-color: #e02b28; }
+		.social-links.rounded a.steam {
+			background-color: #000000; }
+		.social-links.rounded a.dribbble {
+			background-color: #E94C89; }
+		.social-links.rounded a.tumblr {
+			background-color: #44546A; }
+		.social-links.rounded a.wordpress {
+			background-color: #21759b; }
+		.social-links.rounded a.instagram {
+			background-color: #974518; }
+		.social-links.rounded a.pinterest {
+			background-color: #cc2127; }
+		.social-links.rounded a.flickr {
+			background-color: #0063db; }
+		.social-links.rounded a.vimeo {
+			background-color: #1ab7ea; }
+		.social-links.rounded a.vine {
+			background-color: #00b489; }
+		.social-links.rounded a.deviantart {
+			background-color: #536551; }
+		.social-links.rounded a.lastfm {
+			background-color: #DA001C; }
+		.social-links.rounded a.soundcloud {
+			background-color: #FF4700; }
+		.social-links.rounded a:hover {
+			background-color: #adadad; }
+
+/* Weather widget */
+.widget.weather-widget .today-forecast {
+	padding-bottom: 10px;
+	border-bottom: 5px solid #6BAE09;
+	margin-bottom: 20px;
+	display: table;
+	width: 100%; }
+	.widget.weather-widget .today-forecast .details, .widget.weather-widget .today-forecast .weather-icon {
+		width: 50%;
+		display: table-cell;
+		vertical-align: middle;
+		box-sizing: border-box; }
+	.widget.weather-widget .today-forecast .forecast-location {
+		margin-bottom: 10px;
+		font-size: 24;
+		font-weight: 400;
+		color: #333;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+	.widget.weather-widget .today-forecast .day, .widget.weather-widget .today-forecast .date {
+		font-size: 13; }
+	.widget.weather-widget .today-forecast .day {
+		color: #333; }
+	.widget.weather-widget .today-forecast .date {
+		color: #333; }
+	.widget.weather-widget .today-forecast .weather-icon {
+		font-size: 36px;
+		padding-left: 10px;
+		color: rgba(0, 0, 0, 0.1);
+		font-family: #6BAE09;
+		font-weight: 700;
+		text-align: right; }
+		.widget.weather-widget .today-forecast .weather-icon .sup {
+			font-weight: 100;
+			font-size: 30px; }
+		.widget.weather-widget .today-forecast .weather-icon .wi {
+			color: #f2b54a; }
+	.widget.weather-widget .today-forecast .degree {
+		color: #333; }
+.widget.weather-widget .weekly-forecast {
+	padding: 0;
+	list-style: none; }
+	.widget.weather-widget .weekly-forecast li {
+		padding: 10px 0;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+		.small .widget.weather-widget .weekly-forecast li, .lt200 .widget.weather-widget .weekly-forecast li {
+			cursor: pointer; }
+			.small .widget.weather-widget .weekly-forecast li.active .weather-icon:before, .lt200 .widget.weather-widget .weekly-forecast li.active .weather-icon:before {
+				content: "ï„†"; }
+	.widget.weather-widget .weekly-forecast .forecast-detail {
+		float: left;
+		margin-top: 5px; }
+		.widget.weather-widget .weekly-forecast .forecast-detail .day, .widget.weather-widget .weekly-forecast .forecast-detail .collapsible, .widget.weather-widget .weekly-forecast .forecast-detail .weather-icon {
+			display: inline-block; }
+		.widget.weather-widget .weekly-forecast .forecast-detail .day {
+			text-transform: uppercase;
+			width: 50px;
+			position: relative; }
+			.widget.weather-widget .weekly-forecast .forecast-detail .day:after {
+				content: " ";
+				display: block;
+				width: 11px;
+				height: 20px;
+				position: absolute;
+				right: 0;
+				top: 0; }
+			.small .widget.weather-widget .weekly-forecast .forecast-detail .day, .lt200 .widget.weather-widget .weekly-forecast .forecast-detail .day {
+				display: block; }
+				.small .widget.weather-widget .weekly-forecast .forecast-detail .day:after, .lt200 .widget.weather-widget .weekly-forecast .forecast-detail .day:after {
+					display: none; }
+		.widget.weather-widget .weekly-forecast .forecast-detail .date {
+			color: #555;
+			position: relative;
+			padding-right: 20px; }
+			.widget.weather-widget .weekly-forecast .forecast-detail .date:after {
+				content: " ";
+				display: block;
+				width: 11px;
+				height: 20px;
+				background: url(../img/garing-2.png) no-repeat;
+				position: absolute;
+				right: 0;
+				top: 0; }
+			.small .widget.weather-widget .weekly-forecast .forecast-detail .date, .lt200 .widget.weather-widget .weekly-forecast .forecast-detail .date {
+				display: block; }
+				.small .widget.weather-widget .weekly-forecast .forecast-detail .date:after, .lt200 .widget.weather-widget .weekly-forecast .forecast-detail .date:after {
+					display: none; }
+		.small .widget.weather-widget .weekly-forecast .forecast-detail .collapsible, .lt200 .widget.weather-widget .weekly-forecast .forecast-detail .collapsible {
+			display: none; }
+	.widget.weather-widget .weekly-forecast .weather-icon {
+		float: right;
+		color: #f2b54a;
+		position: relative;
+		font-size: 18; }
+		.small .widget.weather-widget .weekly-forecast .weather-icon:before, .lt200 .widget.weather-widget .weekly-forecast .weather-icon:before {
+			content: "ï„‡";
+			font-family: "FontAwesome";
+			position: absolute;
+			left: -20px;
+			color: #6BAE09; }
+.tokoo-advanced-categories select{
+	width: 100%
+}
+.tokoo-advanced-categories li{
+	text-align: right;
+	overflow: hidden;
+	padding: 10px 0;
+}
+.tokoo-advanced-categories a{
+	float: left;
+	padding: 0!important;
+}
+.koo-photogrid li {
+	border: none!important;
+}
+.koo-photogrid li a{
+	padding: 0!important;
+}
+
+.tokoo-recent-comments-with-avatar img{
+	float: left;
+	margin-right:10px;
+}
+.tokoo-recent-comments-with-avatar a{
+	padding: 0!important;
+}
+
+.twitter-tweets-list .tweet{
+	overflow: hidden;
+	padding-left: 70px;
+	position: relative;
+}
+.twitter-tweets-list .tweet .tweet-avatar{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.twitter-tweets-list a{
+	padding: 0!important;
+	display: inline-block!important;
+	color: #ecad25;
+}
+.testimonials-list li{
+	padding: 15px 0;
+}
+.testimonials-list blockquote{
+	margin: 0;
+	font-size: 24px;
+	font-weight: 300;
+
+}
+.testimonials-list blockquote p{
+	font-size: 18px;
+	font-family: inherit;
+}
+.testimonials-list cite,
+.testimonials-list blockquote span{
+	font-size:14px;
+	font-style: normal;
+}
+.testimonials-list blockquote cite a{
+	padding-bottom: 0!important;
+	font-weight: 700;
+}
+
+.testimonial-slider blockquote{
+	margin: 0;
+	font-family: inherit;
+	font-weight: 300;
+}
+.testimonial-slider blockquote p{
+	font-family: inherit;
+}
+.testimonial-slider a{
+	color: #333;
+	font-weight: 700;
+	font-style: normal;
+}
+.site-footer .testimonial-slider a{
+	color: white;
+}
+.tokoo_themeforest_widget_ul { overflow: hidden; }
+.tokoo_themeforest_widget_ul a{
+	padding: 0!important;
+	display: block;
+}
+.tokoo_themeforest_widget_ul img{ display: block }
+.tokoo_themeforest_widget_ul li{
+	border: none!important;
+	float: left;
+}

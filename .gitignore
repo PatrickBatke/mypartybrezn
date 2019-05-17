@@ -1,0 +1,24 @@
+# Application
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+!web/app/plugins/brezn-configurator
+!web/app/plugins/tokoo-vitamins
+!web/app/plugins/visualcomposer
+web/app/mu-plugins/*/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+wep/app/cache/*
+
+# WordPress
+web/wp
+web/.htaccess
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Composer
+/vendor
+web/app/cache/
